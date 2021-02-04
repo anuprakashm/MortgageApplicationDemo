@@ -190,6 +190,7 @@
                    MAPSET('EPSMORT')
                    INTO (EPMENUI)
            END-EXEC.
+
            MOVE EPLOANI        TO EPSPARM-VALIDATE-DATA.
            MOVE LENGTH OF EPLOANI
                                TO EPSPARM-MAX-LENGTH.
